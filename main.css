@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(33, 34, 41);
+    color: #fff;
+}
+
+.header {
+    padding: 10px 40px;
+    height: auto;
+    border-bottom: 1px solid rgb(71, 72, 77);
+}
+.header h3 {
+    height: 50px;
+    width: 50%;
+    float: left;
+    line-height: 50px;
+}
+.header div {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.header p {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: rgb(103, 104, 110);
+}
+.header p span {
+    color: #fff;
+}
+
+
+.main > div {
+    float: left;
+    height: 80vh;
+}
+.text_box {
+    width: 70%;
+    height: auto;
+    padding-top: 15%;
+    width: 35%;
+}
+.img_box {
+    width: 65%;
+}
+.text_box h1 {
+    font-size: 65px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.text_box > * {
+    width: 50%;
+    margin: 0 auto;
+}
+.more_link {
+    padding-top: 30px;
+}
+.more_link > *:not(:last-child) {
+    float: left;
+}
+.more_link span:not(:last-child) {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: rgb(225, 157, 112);
+    margin-top: 7px;
+}
+.more_link a {
+    color: rgb(225, 157, 112);
+    text-decoration: none;
+    padding-left: 10px;
+    letter-spacing: 1px;
+}
+.img_box {
+    position: relative;
+    height: 100%;
+    padding: 45px 0;
+    overflow: hidden;
+}
+.img_box img {
+    height: 90%;
+    width: auto;
+    margin-top: 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img_box img:nth-of-type(1) {
+    transform: translateX(0);
+}
+.img_box img:nth-of-type(2) {
+    transform: translateX(110%);
+}
+.img_box img:nth-of-type(3) {
+    transform: translateX(220%);
+}
+
+
+.footer {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 35px;
+}
+.footer > * {
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer p {
+    font-size: 20px;
+    color: rgb(74, 76, 85);
+}
+.footer span {
+    display: inline-block;
+    width: 35px;
+    height: 2px;
+    background-color: rgb(74, 76, 85);
+    transform: translateY(-6px)
+}
+.footer button {
+    -webkit-appearance: none;
+    border: none;
+    background-color: rgb(33, 34, 41);
+    color: rgb(225, 157, 112);
+    font-size: 20px;
+    font-weight: 900;
+}
